@@ -11,8 +11,9 @@ students=[
        "location": "Nairobi", 
        "DOB": "10 08 2002"},
 
-    {"name": "Miku", "phone": 
-     "0702787900", "age": 35, 
+    {"name": "Miku", 
+     "phone": "0702787900", 
+     "age": 35, 
      "location": "Nakuru", 
      "DOB": "09 05 1991"},
 
@@ -28,4 +29,16 @@ students=[
      "location": "Kisumu", 
      "DOB": "20 07 1999"},]
 
+
+students[0]["phone"] = "0700800111"
+print(students)
+students.append ({
+  "name":"Tetu",
+  "phone": "076666666",
+  "age":25,
+  "location": "Nyeri"
+  })
+print(students)
+
+students.remove(students[5])
 print(students)
